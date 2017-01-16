@@ -1,2 +1,2 @@
 # kode1
-Min første nettside
+Min første nettside er jammen fin!
