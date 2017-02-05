@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Innloggingstest</title>
+    <script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+    <link rel="stylesheet" href="inn.css">
 </head>
 <body>
+    <div class="container">
+        <input id="txtEpost" type="email" placeholder="Epostadresse">
+        <input id="txtPassord" type="password" placeholder="passord">
+        <button id="btnLoggInn">Logg inn</button>
+        <button id="btnRegistrer">Registrer deg</button>
+        <button id="btnLoggUt" class="gjem">Logg ut</button>
 
-<script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
-<script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyBD1MKewYxTLslcyEAsDYDEPWelu2PGipA",
-        authDomain: "innlogging-46cb2.firebaseapp.com",
-        databaseURL: "https://innlogging-46cb2.firebaseio.com",
-        storageBucket: "innlogging-46cb2.appspot.com",
-        messagingSenderId: "399572551149"
-    };
-    firebase.initializeApp(config);
-</script>
+    </div>
+    <div class="container">
+        <button id="btnGoogle">Google login</button>
+
+    </div>
+    <script src="app.js"></script>
+
 
 
 </body>
